@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+/*aplies the property to 1st level*/
+.container .content > p{
+    color: forestgreen;
+}
+/*aplies property to 1st siblings
+.container .content  + p{
+    color: violet;
+}*/
+/*aplies the property to 1st level*/
+.container .main > p{
+    color: brown;
+}
+/*aplies to adjacent elements*/
+.container .content ~ p{
+    color: burlywood;
+}

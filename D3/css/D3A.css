@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline;
+    margin: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: brown;
+}
+
+button{
+    color: teal;
+}
