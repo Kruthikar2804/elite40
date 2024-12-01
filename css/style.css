@@ -1,4 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+ul.parent {
+  list-style: none;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+}
+ul.parent li {
+  position: relative;
+}
+ul.parent li a {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: x-large;
+  color: aliceblue;
+}
+ul.parent li a:hover {
+  color: blanchedalmond;
+}
+ul.parent li ul {
+  list-style: none;
+  position: absolute;
+  display: none;
+  width: 100px;
+  top: 30px;
+}
+ul.parent li:hover ul {
+  display: block;
+}
+
+.header {
+  background-color: azure;
+}
+.header img {
+  width: 100%;
+  height: 250px;
+}
+
+.container .products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container .products li {
+  list-style: none;
+  background-color: darkgrey;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.container .products li button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+.container .products li:hover ul {
+  display: block;
+}
+.container .products li img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 50px;
+  bottom: 40px;
+}
+.container .products li p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
